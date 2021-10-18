@@ -1,6 +1,6 @@
 # Comb_Images
 
-Comb Image Pipeline is a Python pipeline for counting uncapped comb cells from honey comb images.
+Comb Image Pipeline is a Python pipeline for counting uncapped cells from honey comb images.
 
 ## Installation
 
