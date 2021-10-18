@@ -45,7 +45,7 @@ only adaptive thresholding
 
 Function thresholding_Hough_correl(img_dict, thresholding, min_Radius, max_Radius, blocksize, constant)
 
-Images are fed in to the function thresholding_Hough_correl along with the thresholding method and the paramaters for the Circle Hough Transform to detect and count uncapped comb cells. Function returns correlation between automated counts and manual counts obtained by experts.
+Images are fed in to the function thresholding_Hough_correl along with the thresholding method and the paramaters for the Circle Hough Transform to detect and count uncapped comb cells. Function returns correlation between automated counts and manual counts obtained by experts reported in /Comb_Images/experiment/DataCorrel.csv.
 'OTSU' thresholding does not need parameters contrary to 'ADAPTIVE_MEAN' and 'ADAPTIVE_GAUSSIAN' which take blocksize and constant as input.
 min_Radius, max_Radius, blocksize and constant are optimized in a grid search fashion for thresholding = '' on I_{Train}.
 
