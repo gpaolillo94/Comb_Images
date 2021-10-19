@@ -6,6 +6,24 @@ Comb Image Pipeline is a Python pipeline for counting uncapped cells from honey 
 
 git clone https://github.com/gpaolillo94/Comb_Images.git
 
+The processing pipeline has been tested using Python 3.7.6
+  Package dependencies are resolved by either installing them manually:
+  
+  `pip install numpy pandas opencv-python staintools colorcorrect spams`
+  
+  or by executing the first cell of the Jupyter notebook.
+  
+  In our experimental setup, the following package versions have been used:
+  
+  ```
+  numpy==1.21.1
+  pandas==1.3.4
+  opencv-python==4.5.3.56
+  staintools==2.1.2
+  colorcorrect==0.9.1
+  spams==2.6.2.5
+  ```
+
 ## Usage
 
 Run the file Comb_Image_Pipeline.ipynb  
