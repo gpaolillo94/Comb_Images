@@ -36,25 +36,32 @@ where experiment is 'Circular_Crop', 'DeepBee', 'Internal_Crop'
 
 # Set Params of Pipeline
 
-`normalization = 'ACE' `
+`normalization = 'ACE'`
+
 methods available 'ACE', 'MACENKO', 'VAHADANE' 
 
-resize = 0.1 
+`resize = 0.1`
+ 
 for experiment Crop = 0.1, for DeepBee = 0.5
 
-thresholding = 'OTSU' 
+`thresholding = 'OTSU'`
+ 
 methods available 'OTSU', 'ADAPTIVE_MEAN', 'ADAPTIVE_GAUSSIAN' 
 
-min_Radius = 1 
+`min_Radius = 1`
+ 
 set min_Radius value for circle detection
 
-max_Radius = 27 
+`max_Radius = 27`
+
 set max_Radius value for circle detection
 
-blocksize = 7 
+`blocksize = 7`
+ 
 only adaptive thresholding
 
-constant = 26 
+`constant = 26`
+ 
 only adaptive thresholding
 
 # Training phase
