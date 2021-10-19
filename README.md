@@ -4,7 +4,7 @@ Comb Image Pipeline is a Python pipeline for counting uncapped cells from honey 
 
 ## Installation
 
-git clone https://github.com/gpaolillo94/Comb_Images.git
+`git clone https://github.com/gpaolillo94/Comb_Images.git`
 
 The processing pipeline has been tested using Python 3.7.6
   Package dependencies are resolved by either installing them manually:
