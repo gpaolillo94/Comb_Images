@@ -36,7 +36,7 @@ where experiment is 'Circular_Crop', 'DeepBee', 'Internal_Crop'
 
 # Set Params of Pipeline
 
-normalization = 'ACE' 
+`normalization = 'ACE' `
 methods available 'ACE', 'MACENKO', 'VAHADANE' 
 
 resize = 0.1 
